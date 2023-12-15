@@ -3,15 +3,16 @@ const userDisplay = document.getElementById("user-choice");
 const resultDisplay = document.getElementById("result");
 const possibleChoices = document.querySelectorAll("button");
 
-let userChoice;
-let computerChoice;
-let result;
+let userChoice = "";
+let computerChoice = "";
+let result = "";
 
 possibleChoices.forEach((ch) =>
   ch.addEventListener("click", (e) => {
     userChoice = e.currentTarget.id;
     userDisplay.innerHTML = userChoice;
     generateComputerChoice();
+  
     getResult();
   })
 );
