@@ -3,8 +3,8 @@
 }
 
 body {
-  /* background-image: url(https://static.vecteezy.com/system/resources/previews/000/691/497/non_2x/rock-paper-scissors-neon-icons-vector.jpg); */
-background-color: antiquewhite;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/691/497/non_2x/rock-paper-scissors-neon-icons-vector.jpg);
+
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
