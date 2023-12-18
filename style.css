@@ -3,9 +3,6 @@
 }
 
 body {
-  background-image: var(--bg-image);
-
-  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -15,3 +12,11 @@ body {
   min-height: 100vh;
   color: white;
 }
+body{
+  background-image: var(--bg-image);
+
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  resize: both;
+  overflow: scroll;}
