@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: var(--bg-image)
+  background-image: var(--bg-image);
 
   background-size: cover;
   background-repeat: no-repeat;
