@@ -20,15 +20,16 @@ possibleChoices.forEach((ch) =>
 function generateComputerChoice() {
   // const randomNum = Math.floor(Math.random() * possibleChoices.length) + 1;
   const randomNum = Math.floor(
-    Math.random() * (possibleChoices.length - 1) + 1
-  );
+    Math.random() * (possibleChoices.length) + 1
+    );
+    console.log(randomNum);
   if (randomNum === 1) {
     computerChoice = "rock";
   }
   if (randomNum === 2) {
     computerChoice = "scissors";
   }
-  if (randomNum === 1) {
+  if (randomNum === 3) {
     computerChoice = "paper";
   }
   computerDisplay.innerHTML = computerChoice;
