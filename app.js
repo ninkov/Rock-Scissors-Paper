@@ -11,14 +11,17 @@ possibleChoices.forEach((ch) =>
   ch.addEventListener("click", (e) => {
     userChoice = e.currentTarget.id;
     userDisplay.innerHTML = userChoice;
+
     generateComputerChoice();
-  
     getResult();
   })
 );
 
 function generateComputerChoice() {
-  const randomNum = Math.floor(Math.random() * possibleChoices.length) + 1;
+  // const randomNum = Math.floor(Math.random() * possibleChoices.length) + 1;
+  const randomNum = Math.floor(
+    Math.random() * (possibleChoices.length - 1) + 1
+  );
   if (randomNum === 1) {
     computerChoice = "rock";
   }
