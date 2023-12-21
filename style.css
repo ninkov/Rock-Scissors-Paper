@@ -28,6 +28,9 @@ body {
   color: white;
   border-radius: 12px;
   font-size: 27px;
+  margin: 10px 12px;
+  padding: 4px 4px;
+  
 }
 .btn:hover {
   background-color: rgb(81, 255, 0);
